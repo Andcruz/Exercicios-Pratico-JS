@@ -1,8 +1,9 @@
 function parimpar(n){
     if ( n % 2 == 0) {
-    return 'par'
+    return 'Par!'
     } else {
-        return 'impar'
+        return 'Impar!'
     }
 }
-console.log(`O número digitado é` , parimpar(8))
+let num = 5
+console.log(`O número ${num} é ${parimpar(num)}`)
